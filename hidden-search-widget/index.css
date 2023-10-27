@@ -1,0 +1,35 @@
+*{ box-sizing: border-box; }
+
+body{
+  height: 100vh;
+  background-color: #775CF1;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container{
+  display: flex;
+}
+
+.sc_input{
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  padding: .6rem .8rem;
+  width: 13rem;
+  transition: width 250ms ease;
+}
+
+.sc_svg{
+  background: white;
+  padding: .6rem;
+  cursor: pointer;
+}
+
+.sc_input.hide{
+  width: 0;
+  padding: 0;
+}
